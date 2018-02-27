@@ -304,8 +304,9 @@ function clearButton () {
               
              //INSERT YOUR CODE BELOW
 
-
-
+              document.getElementById("taxEstimate").innerHTML = "";
+        
+              document.getElementById("taxBracket").innerHTML = "";
 
 
 }//end of clearButton function
